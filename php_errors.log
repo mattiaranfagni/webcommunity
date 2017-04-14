@@ -1,0 +1,17 @@
+[16-Feb-2017 11:35:31 UTC] PHP Warning:  include(connectphp): failed to open stream: No such file or directory in /home/ubuntu/workspace/mvc/event.php on line 2
+[16-Feb-2017 11:35:31 UTC] PHP Stack trace:
+[16-Feb-2017 11:35:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/mvc/event.php:0
+[16-Feb-2017 11:35:31 UTC] PHP Warning:  include(): Failed opening 'connectphp' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/mvc/event.php on line 2
+[16-Feb-2017 11:35:31 UTC] PHP Stack trace:
+[16-Feb-2017 11:35:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/mvc/event.php:0
+[14-Mar-2017 09:29:54 UTC] PHP Warning:  include(connectphp): failed to open stream: No such file or directory in /home/ubuntu/workspace/mvc/event.php on line 2
+[14-Mar-2017 09:29:54 UTC] PHP Stack trace:
+[14-Mar-2017 09:29:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/mvc/event.php:0
+[14-Mar-2017 09:29:54 UTC] PHP Warning:  include(): Failed opening 'connectphp' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/mvc/event.php on line 2
+[14-Mar-2017 09:29:54 UTC] PHP Stack trace:
+[14-Mar-2017 09:29:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/mvc/event.php:0
+[14-Mar-2017 09:29:54 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'invalid data source name' in /home/ubuntu/workspace/mvc/event.php:3
+Stack trace:
+#0 /home/ubuntu/workspace/mvc/event.php(3): PDO->__construct('', NULL, NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/mvc/event.php on line 3

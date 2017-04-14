@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="app.js"></script>
+    <div class="container-fluid">
+        <div class="col-md-6">
+            <div class="panel panel-primary" >
+                <div class="panel-heading">
+                    Panel heading without title
+                    
+                </div>
+                <div class="panel-body" id="contentEv">
+                    <input class="btn btn-default" id="btnEvent" type="button" value="Load Events">
+                    <div id="loader"></div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="panel panel-danger">
+                <div class="panel-heading">
+                    Panel heading without title
+                </div>
+                <div id="pannello" class="panel-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="InputEvent">Descrizione evento</label>
+                            <input type="text" class="form-control" id="InputEvent" placeholder="Descrizione evento">
+                        </div>
+                        <div class="form-group">
+                            <label for="NicknameEvent">Nickname</label>
+                            <input type="text" class="form-control" id="NicknameEvent" placeholder="Nickname evento">
+                        </div>
+                        <div class="form-group">
+                            <label for="DateEvent">Data evento</label>
+                            <input type="text" class="form-control" id="DateEvent" placeholder="Data evento">
+                        </div>
+                        <button id="btnInsertEvent" type="button" class="btn btn-default">Submit
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</html>
